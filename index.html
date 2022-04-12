@@ -8,7 +8,6 @@
 <body>
 
 <div id="app">
-  <div v-if="books.length">
     <table>
       <thead>
       <tr>
@@ -36,8 +35,6 @@
       </tbody>
     </table>
     <h2>总价格: {{totalPrice | showPrice}}</h2>
-  </div>
-  <h2 v-else>购物车为空</h2>
 </div>
 
 <script src="vue.js"></script>
